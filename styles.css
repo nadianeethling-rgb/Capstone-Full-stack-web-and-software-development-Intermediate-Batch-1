@@ -1,0 +1,29 @@
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    padding: 6px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input.valid {
+    border-color: green;
+}
+
+input.invalid {
+    border-color: red;
+}
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
